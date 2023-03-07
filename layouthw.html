@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS & HTML Card</title>
+    <script src="https://kit.fontawesome.com/26f09fc158.js" crossorigin="anonymous"></script>
+   
+    
+
+    <style>
+    .container{
+     width: 600px;
+     background-color: rgb(238, 234, 234);
+     border: 1px transparent;
+     border-radius: 10px;
+     margin: auto;
+    }
+    .card img{
+        border-radius: 10px 10px 0 0 ;
+    }
+    .card{
+        border: 1px transparent;
+        border-radius: 12px 12px 0 0;
+        width: 100%;
+    }
+    .body-card{
+        padding:10px;
+    }
+    .card-header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .level{
+     padding: 10px;
+     font-size: 15px;
+     color: rgb(0, 119, 26);
+     background-color: rgb(235, 248, 243);
+     border-radius: 50px;
+    }
+    .heart{
+        
+        padding:10px;
+    }
+   
+    .rating{
+        display:flex;
+        font-size: 15px;
+    }
+    .star-icon{
+        color: gold;
+    }
+    .duration{
+        color:red;
+    }
+    .lectures{
+        color: goldenrod;
+    }
+    .icon{
+        display: flex; 
+        justify-content: space-between;
+    }
+    .text-p{
+        font-size: 18px;
+    }
+    .rate {
+        padding-left: 10px;
+    }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+    <div class="card">
+    <img src="../HTML/CSS.png" alt="">
+    </div>
+    <div class="body-card">
+        <div class="card-header">
+            <p class="level">Beginner</p>
+            <p class="heart"><i class="fa-regular fa-heart"></i></p>
+            </div>
+            <h1>Build Website with CSS sty</h1>
+            <p class="text-p">Far advanced settling say finished raillery.<br>Offered chiefly farther </p>
+        
+            <div class="rating">
+                <p class="star-icon"><i class="fa-solid fa-star"></i></p>
+                <p class="star-icon"><i class="fa-solid fa-star"></i></p>
+                <p class="star-icon"><i class="fa-solid fa-star"></i></p>
+                <p class="star-icon"><i class="fa-solid fa-star"></i></p>
+                <p class="star-icon"><i class="fa-regular fa-star-half-stroke"></i></p>
+                <p class="rate"> 4.5/5.0</p>
+        
+            </div>
+    </div>
+    <hr>
+    <div class="icon" style="">
+        <p><i class="fa-solid fa-clock" style="color:red"></i> 36h 30m</p>
+        <p><i class="fa-solid fa-school" style="color: gold;"></i> 72 lectures</p>
+    </div>
+</body>
+</html>
